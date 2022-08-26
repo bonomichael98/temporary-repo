@@ -22,7 +22,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #f4623a;
+  --bs-primary: #ee6c4d;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -56,6 +56,10 @@
 #logo-size-small {
     height:25%;
     width:25%;
+}
+
+.footer-bg-color {
+    background-color: #3d5a80;
 }
 
 
@@ -588,6 +592,7 @@ progress {
   font-size: 0.875em;
   color: #6c757d;
 }
+
 .blockquote-footer::before {
   content: "— ";
 }
@@ -7754,7 +7759,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #212529 !important;
 }
 
 .text-black-50 {
@@ -11281,6 +11286,7 @@ body {
 
 .page-section {
   padding: 8rem 0;
+  background-color: #e0fbfc;
 }
 
 .text-white-75 {
@@ -11310,7 +11316,7 @@ hr.divider-light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #3d5a80;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -11354,7 +11360,7 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #3d5a80;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
